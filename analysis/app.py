@@ -9,7 +9,7 @@ import os
 st.set_page_config(page_title="AI Solar Rooftop Analyzer", layout="centered")
 st.title("\U0001F4BB AI-Powered Rooftop Solar Analysis Tool")
 
-uploaded_file = st.file_uploader("Upload a rooftop satellite image", type=["jpg", "png", "jpeg"])
+uploaded_file = st.file_uploader("Upload a satelite image of house roof", type=["jpg", "png", "jpeg"])
 
 if uploaded_file:
     image = Image.open(uploaded_file)
