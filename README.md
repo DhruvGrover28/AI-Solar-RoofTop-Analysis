@@ -13,6 +13,22 @@ This tool analyzes satellite rooftop images to estimate solar installation poten
 ## Live Website link
  https://ai-solar-rooftop-analysis.streamlit.app/
 
+ ## 📷 Example Use Case
+
+ To use this tool, simply add a satellite image of a house roof or google it and download and upload the image, It will automatically generate the result.
+
+Here's an example of the tool in action, showcasing its input and the detailed result:
+
+**Input Image:**
+A satellite image of a rooftop, provided by the user.
+
+![Example Input Image](example3.jpg)
+
+**Output Results:**
+The tool processes the input image and generates a segmented rooftop mask along with the following calculated metrics and financial estimates:
+
+![Example Output Result](Result_project.png)
+
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repo
