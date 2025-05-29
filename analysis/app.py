@@ -1,8 +1,8 @@
-# app.py
+# analysis/app.py
 import streamlit as st
-from analysis.image_segmentation import segment_rooftop
-from analysis.solar_estimation import estimate_panels_and_power
-from analysis.roi_calculator import calculate_roi
+from image_segmentation import segment_rooftop
+from solar_estimation import estimate_panels_and_power
+from roi_calculator import calculate_roi
 from PIL import Image
 import os
 
@@ -32,7 +32,6 @@ if uploaded_file:
     st.write(f"**Estimated Annual Savings:** ₹{roi_details['annual_savings']:,}")
     st.write(f"**Payback Period:** {roi_details['payback_years']:.1f} years")
     st.write(f"**Total 25-Year Savings:** ₹{roi_details['total_savings_25yrs']:,}")
-
 
 
 
