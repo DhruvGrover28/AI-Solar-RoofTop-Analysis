@@ -11,7 +11,7 @@ This tool analyzes satellite rooftop images to estimate solar installation poten
 - Confidence scoring
 
 ## Live Website link
- https://huggingface.co/spaces/dhruvgrover/solar-rooftop-analysis
+ https://solarscope-ai.onrender.com/
 
  ## 📷 Example Use Case
 
