@@ -1,6 +1,6 @@
 
 
-# AI-Powered Rooftop Solar Analysis Tool
+#SolarScope-AI : AI-Powered Rooftop Solar Analysis Tool
 
 This tool analyzes satellite rooftop images to estimate solar installation potential, panel count, energy output, and return on investment (ROI).
 
